@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: #F4F8FF; color: #14243A; }
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+.tabular { font-variant-numeric: tabular-nums; }
+@keyframes jm-slide { 0% { transform: translateX(-100%); } 100% { transform: translateX(340%); } }
+.jm-progress { animation: jm-slide 1.4s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .jm-progress { animation: none; width: 100%; opacity: .5; } }

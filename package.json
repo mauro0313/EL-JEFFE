@@ -1,0 +1,30 @@
+{
+  "name": "el-jeffe",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "3JM Exteriors job desk with EL JEFFE, the insurance supplement agent",
+  "scripts": {
+    "dev": "vite",
+    "setup": "node scripts/setup.mjs",
+    "build": "node scripts/setup.mjs && vite build",
+    "preview": "vite preview",
+    "test": "node --test shared/roofmath.test.js"
+  },
+  "dependencies": {
+    "firebase": "^10.14.0",
+    "firebase-admin": "^12.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

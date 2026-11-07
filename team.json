@@ -1,0 +1,6 @@
+{
+  "_comment": "Google sign-in emails allowed into EL JEFFE, lowercase. This is the only place the team list lives: the app, the database rules and the file-storage rules are all built from it on every deploy.",
+  "emails": [
+    "mauro@3jmext.com"
+  ]
+}

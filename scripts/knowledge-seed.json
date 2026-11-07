@@ -1,0 +1,84 @@
+{
+  "settings": {
+    "company": "3JM Exteriors",
+    "email": "estimating.3jmexteriors@gmail.com",
+    "phone": "630-407-1920",
+    "overhangIn": 12,
+    "wallIn": 6,
+    "letterIntro": "Below is a summary of items that make up the majority of differences between our estimates thus creating the need for us to engage with you in the customary process of supplementing. We welcome your feedback and appreciate any discrepancies you hold or errors you find. This estimate is a representation of our best efforts to outline the scope necessary to bring this property back to its pre-loss condition. This is the purpose for which we've been hired by the policyholder."
+  },
+  "knowledge": [
+    {
+      "id": "xact-steep-tiers",
+      "title": "Steep charges: separate removal and replacement lines per pitch band",
+      "category": "argument",
+      "status": "verified",
+      "source": "3JM Exteriors (own) supplement estimate, 2025-02-21 (past hail claim), lines 8-11",
+      "body": "Steep charges are written as two lines for each pitch band: one for removal (\"Remove Additional charge for steep roof - 7/12 to 9/12 slope\") and one for replacement (\"Additional charge for steep roof - 7/12 to 9/12 slope\"). Bands: 7/12-9/12, 10/12-12/12, over 12/12. Quantity is the SQ of roof area in that band from the measurement report."
+    },
+    {
+      "id": "arg-waste-eagleview",
+      "title": "Waste: use the measurement report's suggested waste on replacement lines",
+      "category": "argument",
+      "status": "verified",
+      "source": "3JM Exteriors (own) supplement estimate, 2025-02-21 (past hail claim), lines 1-3, 9, 11",
+      "body": "Shingle replacement quantity uses the suggested waste % from the EagleView or HOVER report: measured SQ x (1 + suggested waste %). Removal lines use the measured area with no waste."
+    },
+    {
+      "id": "arg-iws-eaves-calc",
+      "title": "Ice & water shield at eaves: calculation method",
+      "category": "argument",
+      "status": "verified",
+      "source": "3JM Exteriors (own) supplement estimate, 2025-02-21 (past hail claim), line 21",
+      "body": "The ice barrier must reach 24 in. inside the exterior wall line. Run from the drip edge = overhang + wall thickness + 24 in., measured up the slope at the predominant pitch, in 36 in. roll courses with a 3 in. lap (33 in. net per course). Eaves SF = eaves LF x courses x 3. At 6/12 or steeper with a 12 in. overhang this is usually 2 courses."
+    },
+    {
+      "id": "arg-iws-valleys",
+      "title": "Ice & water shield in valleys",
+      "category": "argument",
+      "status": "verified",
+      "source": "3JM Exteriors (own) supplement estimate, 2025-02-21 (past hail claim), line 22",
+      "body": "Valleys get one 36 in. course of ice & water shield centered on the valley: valley LF x 3 = SF."
+    },
+    {
+      "id": "arg-drip-edge-ol",
+      "title": "Drip edge as an Ordinance or Law item",
+      "category": "argument",
+      "status": "verified",
+      "source": "3JM Exteriors (own) supplement estimate, 2025-02-21 (past hail claim), line 24",
+      "body": "Where the existing roof had no drip edge, the code-required drip edge is an Ordinance or Law item. Where the carrier already paid drip edge on part of the roof (for example eaves only), request the full eaves + rakes LF as a measurement correction, citing the report, with the code section as backup."
+    },
+    {
+      "id": "arg-gcop",
+      "title": "GC overhead & profit (10% & 10%)",
+      "category": "argument",
+      "status": "verified",
+      "source": "3JM Exteriors (own) supplement estimate, 2025-02-21 (past hail claim), line 81 and summary page",
+      "body": "Request 10% overhead and 10% profit when the job needs a general contractor to coordinate three or more trades (for example roofing, gutters, siding, interior)."
+    },
+    {
+      "id": "price-ilcc-feb25-roofing",
+      "title": "Xactimate unit prices, price list ILCC8X_FEB25 (Chicago area, Feb 2025)",
+      "category": "price",
+      "status": "verified",
+      "source": "3JM Exteriors (own) supplement estimate, 2025-02-21 (past hail claim). Update to the current month's price list.",
+      "body": "Laminated - comp. shingle rfg. - w/out felt | SQ | 285.40\nDrip edge | LF | 3.30\nIce & water barrier | SF | 1.95\nAdditional charge for steep roof - 7/12 to 9/12 slope | SQ | 48.33\nAsphalt starter - universal starter course | LF | 2.38\nHip / Ridge cap - Standard profile - composition shingles | LF | 5.92"
+    },
+    {
+      "id": "irc-drip-edge",
+      "title": "IRC R905.2.8.5 Drip edge",
+      "category": "code",
+      "status": "needs_source",
+      "source": "Needs source: EL JEFFE looks up the town's adopted edition on each run; paste the official text here once confirmed",
+      "body": "2018 IRC: a drip edge is required at eaves and rake edges of shingle roofs."
+    },
+    {
+      "id": "irc-ice-barrier",
+      "title": "IRC R905.2.7.1 Ice barrier",
+      "category": "code",
+      "status": "needs_source",
+      "source": "Needs source: EL JEFFE looks up the town's adopted edition on each run; paste the official text here once confirmed",
+      "body": "2018 IRC: where ice damming is a known risk, an ice barrier extends from the lowest edges of all roof surfaces to a point at least 24 in. inside the exterior wall line of the building."
+    }
+  ]
+}
